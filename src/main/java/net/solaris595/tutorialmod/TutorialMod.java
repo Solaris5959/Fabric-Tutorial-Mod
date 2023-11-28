@@ -1,6 +1,7 @@
 package net.solaris595.tutorialmod;
 
 import net.fabricmc.api.ModInitializer;
+
 import net.solaris595.tutorialmod.block.ModBlocks;
 import net.solaris595.tutorialmod.item.ModItemGroups;
 import net.solaris595.tutorialmod.item.ModItems;

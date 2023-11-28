@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "catgeory": "misc",
+  "category": "misc",
   "pattern": [
     "###",
     "###",
@@ -12,7 +12,6 @@
     }
   },
   "result": {
-    "item": "tutorialmod:ruby_block",
-    "count": 1
+    "item": "tutorialmod:ruby_block"
   }
 }
