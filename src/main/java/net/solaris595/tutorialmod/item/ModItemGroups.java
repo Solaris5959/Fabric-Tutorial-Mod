@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.solaris595.tutorialmod.TutorialMod;
+import net.solaris595.tutorialmod.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -20,7 +21,8 @@ public class ModItemGroups {
 
                         entries.add(Items.DIAMOND);
 
-
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     }).build());
 
 
