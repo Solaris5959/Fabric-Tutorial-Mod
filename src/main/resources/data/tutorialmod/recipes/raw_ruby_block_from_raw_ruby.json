@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catgeory": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:raw_ruby"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:raw_ruby_block",
+    "count": 1
+  }
+}
