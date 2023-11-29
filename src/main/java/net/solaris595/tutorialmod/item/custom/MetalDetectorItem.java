@@ -13,6 +13,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.solaris595.tutorialmod.block.ModBlocks;
+import net.solaris595.tutorialmod.util.ModTags;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -60,10 +61,13 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
+        /* REGEX VERSION, MORE COVERAGE THAN TAGS FOR OTHER MODS
         Pattern valuableBlocks = Pattern.compile("ore|ancient_debris");
         Matcher matcher = valuableBlocks.matcher(state.getBlock().getName().toString());
 
         return matcher.find();
+        */
+        return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
     }
 
     @Override
