@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:coal_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal"
+  }
+}
