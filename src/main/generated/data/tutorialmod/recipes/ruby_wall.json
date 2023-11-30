@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tutorialmod:ruby_block"
+    },
+    "R": {
+      "item": "tutorialmod:ruby"
+    }
+  },
+  "pattern": [
+    "RBR",
+    "RBR"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tutorialmod:ruby_wall"
+  },
+  "show_notification": true
+}
