@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.RUBY_STAFF);
 
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RAW_RUBY);
