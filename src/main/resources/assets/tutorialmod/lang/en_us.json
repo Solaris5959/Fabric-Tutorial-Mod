@@ -1,7 +1,7 @@
 {
   "item.tutorialmod.ruby": "Ruby",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
-  "item.tutorialmod.metal_detector": "Metal Detector",
+
   "item.tutorialmod.coal_nugget": "Coal Nugget",
   "item.tutorialmod.tomato": "Tomato",
 
@@ -25,6 +25,8 @@
   "block.tutorialmod.ruby_door": "Ruby Door",
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
 
+  "item.tutorialmod.metal_detector": "Metal Detector",
+  "item.tutorialmod.ruby_staff": "Ruby Staff",
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuable ores underground",
 
