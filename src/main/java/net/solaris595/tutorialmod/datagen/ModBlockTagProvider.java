@@ -56,6 +56,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK,
                 new Identifier("fabric", "needs_tool_level_4"))) // NEEDS_NETHERITE_TOOL (level_4) TAG JSON
                 .add(ModBlocks.END_STONE_RUBY_ORE);
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK,
+                new Identifier("fabric", "needs_tool_level_5"))) // Needs Ruby Tool (level_5) TAG JSON
+                .add(ModBlocks.SOUND_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.FENCES)
                 .add(ModBlocks.RUBY_FENCE);
